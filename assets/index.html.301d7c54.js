@@ -1,0 +1,1 @@
+const t={key:"v-74bc627b",path:"/about/",title:"About",lang:"en-US",frontmatter:{layout:"About",title:"About",avatar:"/img/avatar.jpeg",name:"PengYH",subname:"\u5F6D\u5E94\u6D69"},excerpt:"",headers:[],git:{updatedTime:1649994159e3},readingTime:{minutes:1,words:3},filePathRelative:"about/README.md"};export{t as data};
