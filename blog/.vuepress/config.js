@@ -80,7 +80,7 @@ module.exports = {
       // only enable git plugin in production mode
       git: isProd,
       //@renovamen/vuepress-plugin-katex@next 插件，用于在 VuePress 2 的 Markdown 中使用 KaTeX，从而在文章中支持数学公式渲染。
-      katex: false,
+      katex: true,
       giscus: {
         repo: "pengyinghao/blog",
         repoId: "R_kgDOHLfzfQ",
