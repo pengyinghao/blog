@@ -1,7 +1,7 @@
 ---
 layout: About
 title: About
-avatar: /img/avatar.jpeg
+avatar: /img/avatar.jpg
 name: PengYH
 subname: 彭应浩
 ---

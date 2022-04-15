@@ -1,6 +1,6 @@
 const isProd = process.env.NODE_ENV === "production";
 module.exports = {
-  base: isProd ? "/blog/" : "./",
+  base: isProd ? "/blog/" : "/",
   title: "PengYH",
   description: "一名不爱学习的程序员",
   head: [
@@ -81,13 +81,14 @@ module.exports = {
       // only enable git plugin in production mode
       git: isProd,
       katex: true,
-      // giscus: {
-      //   repo: "This-is-an-Apple/blog-giscus-comments",
-      //   repoId: "R_kgDOGl2SjQ",
-      //   category: "Announcements",
-      //   categoryId: "DIC_kwDOGl2Sjc4CAcxK",
-      //   darkTheme: "https://zxh.io/styles/giscus-dark.css",
-      // },
+      giscus: {
+        repo: "pengyinghao/blog",
+        repoId: "R_kgDOHLfzfQ",
+        category: "General",
+        categoryId: "DIC_kwDOHLfzfc4COlLA",
+        lang: "zh-CN",
+        darkTheme: "https://zxh.io/styles/giscus-dark.css",
+      },
       mdPlus: {
         all: true,
       },
@@ -117,7 +118,7 @@ module.exports = {
       },
     ],
     footer: `
-      &copy; <a href="https://github.com/pengyinghao" target="_blank">peng blog</a> 2022
+      &copy; <a href="https://github.com/pengyinghao" target="_blank">personal blog</a> 2022
       <br>
       Powered by <a href="https://v2.vuepress.vuejs.org" target="_blank">VuePress</a> &
       <a href="https://github.com/Renovamen/vuepress-theme-gungnir" target="_blank">Gungnir</a>
