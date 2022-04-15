@@ -1,6 +1,6 @@
 const isProd = process.env.NODE_ENV === "production";
 module.exports = {
-  base: "/<REPO>/",
+  base: isProd ? "/blog/" : "./",
   title: "PengYH",
   description: "一名不爱学习的程序员",
   head: [
