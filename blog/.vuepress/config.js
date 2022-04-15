@@ -3,6 +3,7 @@ module.exports = {
   base: isProd ? "/blog/" : "/",
   title: "PengYH",
   description: "一名不爱学习的程序员",
+  lang:'zh-CN',
   head: [
     [
       "link",
@@ -52,18 +53,19 @@ module.exports = {
     // 首页头像
     homeHeaderImages: [
       {
-        path: "/img/home-bg/2.jpeg",
+        path: "/img/home-bg/1.jpg",
       },
       {
-        path: "/img/home-bg/3.jpeg",
-        mask: "rgba(68, 74, 83, .1)",
+        path: "/img/home-bg/2.jpg",
       },
       {
-        path: "/img/home-bg/4.jpeg",
-        mask: "rgba(19, 75, 50, .2)",
+        path: "/img/home-bg/3.jpg",
       },
       {
-        path: "/img/home-bg/5.jpg",
+        path: "/img/home-bg/4.jpg",
+      },
+      {
+        path: "/img/home-bg/4.jpg",
       },
     ],
 
@@ -80,19 +82,18 @@ module.exports = {
     themePlugins: {
       // only enable git plugin in production mode
       git: isProd,
-      katex: true,
+      //@renovamen/vuepress-plugin-katex@next 插件，用于在 VuePress 2 的 Markdown 中使用 KaTeX，从而在文章中支持数学公式渲染。
+      katex: false,
       giscus: {
         repo: "pengyinghao/blog",
         repoId: "R_kgDOHLfzfQ",
         category: "General",
         categoryId: "DIC_kwDOHLfzfc4COlLA",
-        lang: "zh-CN",
-        darkTheme: "https://zxh.io/styles/giscus-dark.css",
+        // darkTheme: "https://zxh.io/styles/giscus-dark.css",
       },
       mdPlus: {
         all: true,
       },
-      // ga: "G-HCQSX53XFG", // 谷歌统计
       // ba: "75381d210789d3eaf855fa16246860cc",//百度统计
       // rss: {
       //   siteURL: "https://zxh.io",
