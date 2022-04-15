@@ -1,5 +1,6 @@
 const isProd = process.env.NODE_ENV === "production";
 module.exports = {
+  base: "/<REPO>/",
   title: "PengYH",
   description: "一名不爱学习的程序员",
   head: [
@@ -8,7 +9,6 @@ module.exports = {
       {
         rel: "icon",
         type: "image/svg",
-        sizes: "16x16",
         href: `/img/logo/logo.svg`,
       },
     ],
@@ -17,7 +17,6 @@ module.exports = {
       {
         rel: "icon",
         type: "image/svg",
-        sizes: "32x32",
         href: `/img/logo/logo.svg`,
       },
     ],
@@ -27,14 +26,10 @@ module.exports = {
       "meta",
       { name: "apple-mobile-web-app-status-bar-style", content: "black" },
     ],
-    [
-      "link",
-      { rel: "apple-touch-icon", href: `/images/icons/logo.svg` },
-    ],
+    ["link", { rel: "apple-touch-icon", href: `/images/icons/logo.svg` }],
     ["meta", { name: "theme-color", content: "#377bb5" }],
     ["meta", { name: "msapplication-TileColor", content: "#377bb5" }],
   ],
-
   bundler: "@vuepress/vite",
   theme: "vuepress-theme-gungnir",
   themeConfig: {
