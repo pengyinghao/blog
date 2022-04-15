@@ -59,13 +59,10 @@ module.exports = {
         path: "/img/home-bg/2.jpg",
       },
       {
-        path: "/img/home-bg/3.jpg",
-      },
-      {
         path: "/img/home-bg/4.jpg",
       },
       {
-        path: "/img/home-bg/4.jpg",
+        path: "/img/home-bg/5.jpg",
       },
     ],
 
