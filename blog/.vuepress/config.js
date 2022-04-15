@@ -1,9 +1,9 @@
 const isProd = process.env.NODE_ENV === "production";
 module.exports = {
   base: isProd ? "/blog/" : "/",
-  title: "PengYH",
+  title: "personal blog",
   description: "一名不爱学习的程序员",
-  lang:'zh-CN',
+  lang: "zh-CN",
   head: [
     [
       "link",
