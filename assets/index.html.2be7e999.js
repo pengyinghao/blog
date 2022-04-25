@@ -1,1 +1,0 @@
-const t={key:"v-74bc627b",path:"/about/",title:"About",lang:"zh-CN",frontmatter:{layout:"About",title:"About",avatar:"/img/avatar.jpg",name:"PengYH",subname:"\u5F6D\u5E94\u6D69"},excerpt:"",headers:[],git:{updatedTime:1650015043e3},readingTime:{minutes:1,words:3},filePathRelative:"about/README.md"};export{t as data};
